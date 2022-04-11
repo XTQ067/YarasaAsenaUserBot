@@ -1,1 +1,1 @@
-Hazırlanır.
+# Hazırlanır.
