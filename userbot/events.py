@@ -1,13 +1,5 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
-#
-
-# Asena UserBot - Yusuf Usta
-
-""" Olayları yönetmek için UserBot modülü.
- UserBot'un ana bileşenlerinden biri. """
+""" Hadiseleri idare etmek üçün User Bot modulu.
+ UserBot'un esas komponentlerinden biri. """
 
 import sys
 from asyncio import create_subprocess_shell as asyncsubshell
@@ -22,7 +14,7 @@ from userbot import bot, BOTLOG_CHATID, LOGSPAMMER, PATTERNS
 
 
 def register(**args):
-    """ Yeni bir etkinlik kaydedin. """
+    """ Yeni bir feailiyyet qeyd edin """
     pattern = args.get('pattern', None)
     disable_edited = args.get('disable_edited', False)
     groups_only = args.get('groups_only', False)
@@ -64,7 +56,7 @@ def register(**args):
                 return
              
             if groups_only and not check.is_group:
-                await check.respond("`Bunun bir grup olduğunu sanmıyorum.`")
+                await check.respond("**Bunun bir qrup olduğunu düşünmürəm.**")
                 return
 
             try:
@@ -79,37 +71,37 @@ def register(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-                    text = "**USERBOT HATA RAPORU**\n"
-                    link = "[Asena Destek Grubu](https://t.me/AsenaSupport)"
-                    text += "İsterseniz, bunu rapor edebilirsiniz"
-                    text += f"- sadece bu mesajı buraya iletin {link}.\n"
-                    text += "Hata ve Tarih dışında hiçbir şey kaydedilmez\n"
+                    text = "**YarasaUserBot'un xəta faylı. 👁️‍🗨️**\n"
+                    link = "@YarasaSupport"
+                    text += "**📥 İstəsəniz bunu şikayət edə bilərsiniz.**"
+                    text += f" **- sadəcə bu mesajı buraya göndərin {link}. 🧰**\n"
+                    text += "**Xəta və tarixdən başqa heçnə qeyd edilmir. ⚙️**\n"
 
-                    ftext = "========== UYARI =========="
-                    ftext += "\nBu dosya sadece burada yüklendi,"
-                    ftext += "\nsadece hata ve tarih kısmını kaydettik,"
-                    ftext += "\ngizliliğinize saygı duyuyoruz,"
-                    ftext += "\nburada herhangi bir gizli veri varsa"
-                    ftext += "\nbu hata raporu olmayabilir, kimse verilerinize ulaşamaz.\n"
+                    ftext = "========== XƏBƏRDARLIQ =========="
+                    ftext += "\nBu faylı sadece bura yüklendi,"
+                    ftext += "\nsadece xeta ve tarix hissesini qeyd etdik,"
+                    ftext += "\nşexsi melumatlarınıza hörmet edirik,"
+                    ftext += "\nburada hansısa şexsi melumatınız varsa"
+                    ftext += "\nbu xeta hesabatıb olmaya biler, kimse melumatlarınıza baxa bilmez.\n"
                     ftext += "================================\n\n"
-                    ftext += "--------USERBOT HATA GUNLUGU--------\n"
-                    ftext += "\nTarih: " + date
-                    ftext += "\nGrup ID: " + str(check.chat_id)
-                    ftext += "\nGönderen kişinin ID: " + str(check.sender_id)
-                    ftext += "\n\nOlay Tetikleyici:\n"
+                    ftext += "--------XƏTA HESABATI--------\n"
+                    ftext += "\nTarix: " + date
+                    ftext += "\nQrup ID: " + str(check.chat_id)
+                    ftext += "\nGönderen İsdifadeçinin ID: " + str(check.sender_id)
+                    ftext += "\n\nHadise Tetikleyicisi:\n"
                     ftext += str(check.text)
-                    ftext += "\n\nGeri izleme bilgisi:\n"
+                    ftext += "\n\nİzleme Melumatı:\n"
                     ftext += str(format_exc())
-                    ftext += "\n\nHata metni:\n"
+                    ftext += "\n\nXeta:\n"
                     ftext += str(sys.exc_info()[1])
-                    ftext += "\n\n--------USERBOT HATA GUNLUGU BITIS--------"
+                    ftext += "\n\n--------BOZQURD XETA HESABATI SONLUQ--------"
 
                     command = "git log --pretty=format:\"%an: %s\" -10"
 
                     ftext += "\n\n\nSon 10 commit:\n"
 
                     process = await asyncsubshell(command,
-                                                  stdout=asyncsub.PIPE,
+                                                   stdout=asyncsub.PIPE,
                                                   stderr=asyncsub.PIPE)
                     stdout, stderr = await process.communicate()
                     result = str(stdout.decode().strip()) \
@@ -117,16 +109,16 @@ def register(**args):
 
                     ftext += result
 
-                    file = open("error.log", "w+")
+                    file = open("yetimxətavar.log", "w+")
                     file.write(ftext)
                     file.close()
 
                     if LOGSPAMMER:
-                        await check.client.respond("`Üzgünüm, UserBot'um çöktü.\
-                        \nHata günlükleri UserBot günlük grubunda saklanır.`")
+                        await check.client.respond("`Bağışla, UserBotun çökdü.\
+                        \nXeta hesabatları UserBot gündelik qrupunda gizlener.`")
 
                     await check.client.send_file(send_to,
-                                                 "error.log",
+                                                 "yetimxətavar.log",
                                                  caption=text)
                     remove("error.log")
             else:
