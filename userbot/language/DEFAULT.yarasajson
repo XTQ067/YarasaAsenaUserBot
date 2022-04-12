@@ -1,5 +1,5 @@
 {
-    "__ASENAJSON__": true,
+    "__YARASAJSON__": true, // " asena "
     "LANGUAGE": "Türkçe",
     "LANGCODE": "tr",
     "AUTHOR": "Asena Ekibi / TDU",
@@ -30,12 +30,12 @@
             "ALREADY_DELETED": "`Plugin dosyası zaten silinmiş.`",
             "NOT_FOUND_PLUGIN": "`Böyle bir plugin belki vardı, belki de yoktu. Ama şu an olmadığı kesin.`",
             "PLUG_DELETED": "`Plugin başarıyla silindi!` **İşlemlerin uygulanabilmesi için yeniden başlatmanız gerekmetedir.**",
-            "ASENA_PLUGIN_CAPTION": "Bu bir [Asena](https://t.me/AsenaUserBot) pluginidir."
+            "YARASA_PLUGIN_CAPTION": "Bu bir @yarasabots pluginidir."
         },
         
-        "__asena": {
-            "NEED_PLUGIN": "Lütfen bir Asena modülü adı belirtin.",
-            "NEED_MODULE": "Lütfen hangi Asena modülü için yardım istediğinizi belirtin !!\nKullanım: .asena <modül adı>"
+        "__yarasa": {
+            "NEED_PLUGIN": "Lütfen bir Yarasa modülü adı belirtin.",
+            "NEED_MODULE": "Lütfen hangi Yarasa modülü için yardım istediğinizi belirtin !!\nKullanım: .yarasa <modül adı>"
         },
 
         "__helpme": {
@@ -53,7 +53,7 @@
             "INVALID_MEDIA": "```Medya geçerli değil.```",
             "PRIVATE": "`Bu komut özel mesajda kullanılamaz!`",
             "EKLE": "`Başarıyla eklendi`",
-            "BRAIN": "`Hata! Bu işlemi Asena Yetkilisine yapamam.`",
+            "BRAIN": "`Hata! Bu işlemi yarasa Yetkilisine yapamam.`",
             "BANNING": "`Kullanıcı yasaklanıyor...`",
             "ALREADY_GBANNED": "`Hata! Kullanıcı zaten küresel olarak yasaklanmış.`",
             "GBANNED_REASON": "`Kullanıcı küresel olarak yasaklandı!`\n**Nedeni:**",
@@ -114,7 +114,7 @@
             "ALREADY": "`Görünüşe göre %s zaten otomatik olarak değişiyor.`",
             "SETTING": "`%s ayarlanıyor...`",
             "BIO": "📅 Tarih: {tarih} | ⌚️ Saat: {saat} | ",
-            "NICK": "@AsenaUserBot",
+            "NICK": "@Yarasabots",
             "SETTED": "`%s ayarlandı :)`",
             "NAME": "⏰%s"
         },
@@ -153,8 +153,8 @@
             "EFECTING": "`Efekt uygulanıyor...`",
             "NOT_FOUND_EFECT": "**Belirttiğiniz efekt bulunamadı! **`Kullanılabileceğiniz efektler: ``çocuk/robot/earrape/hızlı/parazit/yankı`",
             "NEED_VIDEO": "`Lütfen bir videoya yanıt verin!`",
-            "WITH_ASENA":"@AsenaUserBot `ile efekt uygulandı.`",
-            "WITH_ASENA_GIF": "@AsenaUserBot `ile Gif'e çevirildi.`",
+            "WITH_YARASA":"@YarasaBots `ile efekt uygulandı.`",
+            "WITH_YARASA_GIF": "@YarasaBots `ile Gif'e çevirildi.`",
             "CONVERTING_TO_GIF": "Gif'e çeviriliyor...",
             "UPLOADING_GIF": "`Gif yükleniyor...`",
             "ERROR": "Gif'e çeviremedim :/"
@@ -271,7 +271,7 @@
 
         "galeri": {
             "ADDED_LIST": "`Fotoğraf sıraya alındı.`",
-            "INVALID_URL": "`Geçersiz bir resim URL'si girdiniz. Kullanım hakkında bir fikriniz yoksa, ` `.asena galeri` `yazınız.`",
+            "INVALID_URL": "`Geçersiz bir resim URL'si girdiniz. Kullanım hakkında bir fikriniz yoksa, ` `.yarasa galeri` `yazınız.`",
             "EXAMPLE": "`Lütfen bir resim adresi giriniz. Örnek olarak: ` `.galeri ekle https://i.resimyukle.xyz/7Qbbc9.jpeg`",
             "LIST": "Sıraya Aldığınız Fotoğraflar",
             "REMOVED": "**Sıradaki fotoğraf başarıyla kaldırıldı**",
@@ -279,7 +279,7 @@
             "NEED_NUMBER": "Lütfen resmin sırasını belirtiniz. Örnek:",
             "WORKING": "`Hali hazırda galeri çalışıyor.`",
             "STARTED": "`Galeri çalışmaya başladı.`",
-            "NEED_PHOTO": "Galeri çalışması için fotoğraf eklemeniz gerekmektedir. Eklemeyi bilmiyorsanız .asena galeri ile kullanım hakkında bilgi sahibi olabilirsiniz.",
+            "NEED_PHOTO": "Galeri çalışması için fotoğraf eklemeniz gerekmektedir. Eklemeyi bilmiyorsanız .yarasa galeri ile kullanım hakkında bilgi sahibi olabilirsiniz.",
             "STOPPED": "`Galeri durduruldu!`",
             "ALREADY_STOP": "`Galeri zaten çalışmıyor.`",
             "INVALID": "**Bilinmeyen komut** Kullanım:\n\nGaleri'ye fotoğraf ekleme: `.galeri ekle https://i.resimyukle.xyz/7Qbbc9.jpeg`\nGaleri listesini görme: `.galeri liste`\nSıradan bir fotoğrafı silme: `.galeri sil <sıra sayısı>`"
@@ -363,10 +363,10 @@
             "GOODMORNIN_YALL": "`Günaydın!`",
             "GOODBYE_MFRS": "`Görüşürüz... *Windows XP kapanma sesi*`",
             "RESTARTING": "`Bot yeniden başlatılıyor...`",
-            "SUPPORT_GROUP": "[Buradan](http://t.me/AsenaSupport) destek grubumuza ulaşabilirsiniz.",
-            "CREATOR": "Bu bot \n[Yusuf Usta](https://t.me/Fusuf) tarafından geliştirilmiştir. \n",
-            "README": "[Asena README.md](https://github.com/quiec/AsenaUserBot/blob/master/README.md)",
-            "REPO": "[Asena Repo](https://github.com/quiec/asenauserbot)",
+            "SUPPORT_GROUP": "@YarasaSupport destek grubumuza ulaşabilirsiniz.",
+            "CREATOR": "Creators: @Nusrte & @XTQ_BAKAVOY.",
+            "README": "[Yarasa README.md](https://github.com/xtq067/yarasaasenauserbot#readmemd)",
+            "REPO": "[Yarasa Repo](https://github.com/xtq067/yarasaasenauserbot)",
             "CHECK_LOGS": "`Çözülmüş mesaj için userbot loglarını kontrol et!`"
         },
 
@@ -527,7 +527,7 @@
             "SEARCHING": "`Şarkı aranıyor...`",
             "BLOCKED_DEEZER": "`Mmmh sanırım` @DeezerMusicBot `engellemişsin. Lütfen engeli aç.",
             "NOT_FOUND": "`Aradığınız şarkı bulunamadı! Üzgünüm.`",
-            "UPLOADED_WITH": "@AsenaUserBot ile yüklendi.",
+            "UPLOADED_WITH": "@YarasaBots ile yüklendi.",
             "USAGE": "`Kullanım:` `.song şarkı ismi/youtube url/spotify url`",
             "SEARCHING_SPOT": "`Şarkı aranıyor ve indiriliyor lütfen bekleyin!",
             "DOWNLOADED": "`İndirme işlemi başarılı lütfen bekleyiniz.`",
@@ -565,7 +565,7 @@
             "QUERY": "Sorgu",
             "RESULT": "Sonuç",
             "NOT_FOUND": "Bir şey bulunamadı",
-            "EXAMPLE": "`Bir örnek görmek için .asena pip komutunu kullanın.`"
+            "EXAMPLE": "`Bir örnek görmek için .yarasa pip komutunu kullanın.`"
 
         },
 
@@ -587,7 +587,7 @@
             "NOT_FOUND": "klasörü bulunamadı.",
             "GIT_ERROR": "Git hatası!",
             "NOT_GIT": "klasörü bir git reposu gibi görünmüyor. \nFakat bu sorunu .update now komutuyla botu zorla güncelleyerek çözebilirsin.",
-            "INVALID_BRANCH": "**[UPDATER]:**` Galiba Asena botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen Asena botunu resmi repodan kullan.`",
+            "INVALID_BRANCH": "**[UPDATER]:**` Galiba Yarasa botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen Asena botunu resmi repodan kullan.`",
             "UPDATE": "\n`Botun` **tamamen güncel!** `Branch:` **{}**\n",
             "WAS_UPDATE": "**{} için yeni güncelleme mevcut!\n\nDeğişiklikler:**\n`{}`",
             "BIG": "`Değişiklik listesi çok büyük, dosya olarak görüntülemelisin.`",
