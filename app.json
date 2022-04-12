@@ -1,18 +1,18 @@
 {
-  "name": "Asena UserBot",
-  "description": "Asena UserBot",
-  "logo": "https://i.hizliresim.com/1UoYoT.jpg",
+  "name": "Yarasa UserBot",
+  "description": "Yarasa UserBot",
+  "logo": "https://camo.githubusercontent.com/432bdd58a08dd49fdc268d1382e68f8e8aadfd7bf232b4024b4204da67628b11/68747470733a2f2f74652e6c656772612e70682f66696c652f6566353032653730363138366334393233333564662e6a7067",
   "keywords": [
     "telegram",
     "userbot",
-	"Asena",
+	"YARASA",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/quiec/AsenaUserbot",
-  "website":   "https://quiec.tech",
-  "success_url": "https://t.me/AsenaSupport",
+  "repository": "https://github.com/XTQ067/YarasaAsenaUserBot",
+  "website":   "https://t.me/YarasaBots",
+  "success_url": "https://t.me/YarasaSupport",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -54,7 +54,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Fork sağlamanız durumunda repo URL'nizi buraya ekleyin. Varsayılan olarak kendi repo adresimiz eklidir.",
-      "value": "https://github.com/Quiec/AsenaUserBot",
+      "value": "https://github.com/XTQ067/YarasaAsenaUserBot",
       "required": true
     },
     "COUNTRY": {
