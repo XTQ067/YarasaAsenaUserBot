@@ -1,8 +1,8 @@
 {
-    "__ASENAJSON__": true,
+    "__YARASAJSON__": true,
     "LANGUAGE": "Azərbaycanca",
     "LANGCODE": "az",
-    "AUTHOR": "@senanoguz",
+    "AUTHOR": "@nusrte",
     "STRINGS": {
         "__plugin": {
             "REPLY_FOR_PORT": "`Zəhmət olmasa Plugin-Port üçün bir fayla cavab yazın`",
@@ -13,29 +13,29 @@
             "UNIBORG2": "`2. Tip UniBorg aşkar edildi...`",
             "UNIBORG3": "`3. Tip UniBorg aşkar edildi...`",
             "UNIBORG_NOT_FOUND": "`UniBorg plugini aşkar edilə bilmədi.`",
-            "PLIST_CHECKING": "`Pluginler çağırılır...`",
-            "PLIST": "**Hazırda Yüklənən Pluginlər:**",
+            "PLIST_CHECKING": "♻️ `Pluginler çağırılır...`",
+            "PLIST": "🔰 **Hazırda Yüklənən Pluginlər:**",
             "TEMP_PLUGIN": "`Pluginleriniz Həmişəlik olaraq yüklənmir, buna görə bir siyahı gətirə bilmirəm.`",
-            "REPLY_TO_FILE": "`Yüklənəcək modul faylına cavab yazın.`",
+            "REPLY_TO_FILE": "❗ `Yüklənəcək modul faylına cavab yazın.`",
             "NOT_FOUND_PLUGIN_CHANNEL": "`Pluginlərin həmişəlik olması üçün Id nizamlamamısınız. Pluginləriniz yenidən başladılan zaman silinə bilər!`",
-            "PLUGIN_BUGGED": "`Yükləmə uğurlu deyil! Plugində xəta aşkar edildi.\n\nXəta: `",
-            "PLUGIN_DESC": "Bu plugin qırağdan botunuz üçün yüklənmişdir. İstifadəsi:",
-            "PLUGIN_DOWNLOADED": "`Modul uğurla yükləndi! %s yazaraq istifadə edə bilərsiniz.`",
-            "PLUGIN_WITHOUT_DESC": "Bu plugin qırağdan yüklənmişdir. İstifadəsi: #ƏMR TAPILMADI#",
-            "PLUGIN_DESCLESS": "`Modul uğurla yükləndi! Ancaq əmri təssüf ki, tapa bilmədim.`",
-            "PLUG_DESC": "Bu plugin qırağdan üçün yüklənmişdir. İstifadəsi: .",
-            "PLUG_MESSAGE": "`Modul uğurla yükləndi! .%s azaraq istifadə edə bilərsiniz.`",
-            "PREMOVE_GIVE_NAME": "`Zəhmət olmasa əmrin yanına bir plugin qeyd edin.`",
-            "PREMOVE_DELETING": "`Plugin Silinir...`",
-            "ALREADY_DELETED": "`Plugin faylı artıq silinib.`",
-            "NOT_FOUND_PLUGIN": "`Belə bir plugin bəlkə var idi, bəlkədə yox. Ancaq hazırda olmadığı dəqiqdir.`",
-            "PLUG_DELETED": "`Plugin uğurla yükləndi!` **Tətbiq ediləcək əməliyyatlar üçün yenidən başlatmağınız lazımdır.**",
-            "ASENA_PLUGIN_CAPTION": "Bu [Asena](https://t.me/AsenaUserBot) pluginidir."
+            "PLUGIN_BUGGED": "❌ `Yükləmə uğurlu deyil! Plugində xəta aşkar edildi.\n\nXəta: `",
+            "PLUGIN_DESC": "✅ Bu plugin qırağdan botunuz üçün yüklənmişdir. İstifadəsi:",
+            "PLUGIN_DOWNLOADED": "✅ `Modul uğurla yükləndi! %s yazaraq istifadə edə bilərsiniz.`",
+            "PLUGIN_WITHOUT_DESC": "❗ Bu plugin qırağdan yüklənmişdir. İstifadəsi: #ƏMR TAPILMADI#",
+            "PLUGIN_DESCLESS": "✅ `Modul uğurla yükləndi! Ancaq əmri təssüf ki, tapa bilmədim.`😕",
+            "PLUG_DESC": "ℹ️ Bu plugin qırağdan üçün yüklənmişdir. İstifadəsi: .",
+            "PLUG_MESSAGE": "✅ `Modul uğurla yükləndi! .%s yazaraq istifadə edə bilərsiniz.`",
+            "PREMOVE_GIVE_NAME": "❗`Zəhmət olmasa əmrin yanına bir plugin qeyd edin.`",
+            "PREMOVE_DELETING": "🗑️`Plugin Silinir...`",
+            "ALREADY_DELETED": "⚠️`Plugin faylı artıq silinib.`",
+            "NOT_FOUND_PLUGIN": "⚠️ **Plugin tapılmadı",
+            "PLUG_DELETED": "🗑️`Plugin uğurla silindi!` **Tətbiq ediləcək əməliyyatlar üçün yenidən başlatmağınız lazımdır.**",
+            "YARASA_PLUGIN_CAPTION": "Bu @YarasaBots pluginidir."
         },
         
-        "__asena": {
-            "NEED_PLUGIN": "Zəhmət olmasa bir Asena modulu adı yazın.",
-            "NEED_MODULE": "Zəhmət olmasa hansı Asena modulu üçün kömək istədiyinizi qeyd edin !!\nİstifadəsi: .asena <modul adı>"
+        "__yarasa": {
+            "NEED_PLUGIN": "❌ Modul tapılmadı",
+            "NEED_MODULE": "ℹ️ Zəhmət olmasa hansı Yarasa modulu üçün kömək istədiyinizi qeyd edin !!\nİstifadəsi: .yarasa <modul adı>"
         },
 
         "__helpme": {
@@ -53,12 +53,12 @@
             "INVALID_MEDIA": "```Media etibarlı deyil.```",
             "PRIVATE": "`Bu əmr xüsusi mesajda istifadə edilə bilməz!`",
             "EKLE": "`Uğurla əlavə edildi`",
-            "BRAIN": "`Xəta! Bunu Asena Səlahiyyətli birinə edə bilmərəm.`",
+            "BRAIN": "`Xəta! Bunu Yarasa Səlahiyyətli birinə edə bilmərəm.`",
             "BANNING": "`İstifadəçi qara siyahıya əlavə edilir...`",
             "ALREADY_GBANNED": "`Xəta! İstifadəçi artıq dünya miqyasında qadağan edilmişdir.`",
             "GBANNED_REASON": "`İstifadəçi dünya miqyasında qadağan edildi!`\n**Səbəbi:**",
             "GBANNED": "`İstifadəçi dünya miqyasında qadağan edildi!`",
-            "GBAN_TEXT": "```Sən pis birisən! Artıq sənin burada olmağıvı istəmirəm. Qadağan edildin!```",
+            "GBAN_TEXT": "```Sən pis birisən! Artıq sənin burada olmağıvı istəmirəm. Banlandın!```",
             "UNGBANNING": "```Dünya miqyasında qadağa ləğv edilir...```",
             "NO_BANNED": "`Xəta! Yəqin ki, istifadəçinin qadağası yoxdur.`",
             "UNGBANNED": "```İstifadəçinin dünya miqyasında qadağası ləğv edildi```",
@@ -105,16 +105,16 @@
         "afk": {
             "REASON": "Səbəb",
             "AFK": "Sahibim hazırda Xətdə deyil.",
-            "IM_AFK": "Hazırda AFK-yam.",
+            "IM_AFK": "Artıq AFK-yam.",
             "IM_NOT_AFK": "Artıq AFK deyiləm."
         },
 
         "auto": {
-            "INVALID_TYPE": "Naməlum növ. Mövcud növlər: `isim`, `bio`",
+            "INVALID_TYPE": "Naməlum növ. Mövcud növlər: `ad`, `bio`",
             "ALREADY": "`Hazırda %s onsuzda avtomatik olaraq dəyişir.`",
             "SETTING": "`%s nizamlanır...`",
-            "BIO": "📅 Tarix: {tarih} | ⌚️ Saat: {saat} | ",
-            "NICK": "@AsenaUserBot",
+            "BIO": "📅 Tarix: {tarih} | ⌚️ Saat: {saat} | 🇦🇿 ",
+            "NICK": "@YarasaUserBot",
             "SETTED": "`%s nizamlandı :)`",
             "NAME": "⏰%s"
         },
@@ -133,7 +133,7 @@
         "blacklist": {
             "FORBIDDEN_KUFUR": "**Bu Qrupda mesaj silmək icazəm yoxdur. Söyüş filtri qoşulmayıb.**",
             "HAVENT_PERMISSION": "Mesaj silmək icazəm yoxdur!",
-            "USAGE_KUFUR": "`İstifadəsi: .küfür aç/bağla`",
+            "USAGE_KUFUR": "`İstifadəsi: .söyüş aç/bağla`",
             "OPENED_KUFUR": "`Söyüş filtri bu qrup üçün təsdiq edildi!`",
             "CLOSED_KUFUR": "`Söyüş filtri bu qrup üçün ləğv edildi!`",
             "ALREADY_CLOSED_KUFUR": "`Bu qrup üçün söyüş filtri onsuzda ləğv edilib!`",
@@ -148,16 +148,16 @@
             "INVALID_COMMAND": "**Bilinməyən komanda!** `İstifadəsi: .çevir foto/ses/gif`",
             "NEED_REPLY": "Zəhmət olmasa bir Sticker-ə cavab verin.",
             "CONVERTING_TO_PHOTO": "Fotoğraf'a çeviriliyor...",
-            "NEED_EFECT": "`Zəhmət olmasa bir effekt qeyd edin. İstifadə edilə biləcək effektlər: ``çocuk/robot/earrape/hızlı/parazit/yankı`",
+            "NEED_EFECT": "`Zəhmət olmasa bir effekt qeyd edin. İstifadə edilə biləcək effektlər: ``donma/ters/robot/earrape/parazit`",
             "NEED_SOUND": "`Zəhmət olmasa bir Səs-ə cavab verin.`",
             "EFECTING": "`Effekt hazırlanır...`",
-            "NOT_FOUND_EFECT": "**Qeyd etdiyiniz effekt tapılmadı! **`İstifadə edə biləcəyiniz effektlər: ``çocuk/robot/earrape/hızlı/parazit/yankı`",
+            "NOT_FOUND_EFECT": "**Qeyd etdiyiniz effekt tapılmadı! **`İstifadə edə biləcəyiniz effektlər: ``donma/ters/robot/earrape/parazit`",
             "NEED_VIDEO": "`Zəhmət olmasa bir videoya cavab verin!`",
-            "WITH_ASENA":"@AsenaUserBot `ilə effekt hazırlandı.`",
-            "WITH_ASENA_GIF": "@AsenaUserBot `ilə Gif'ə çevrildi.`",
+            "WITH_YARASA":"@YarasaUserBot `ilə effekt hazırlandı.`",
+            "WITH_YARASA_GIF": "@YarasaUserbot `ilə Gif'ə çevrildi.`",
             "CONVERTING_TO_GIF": "Gif'ə çevrilir...",
             "UPLOADING_GIF": "`Gif yüklənir...`",
-            "ERROR": "Gif'ə çevirə bilmədim :/"
+            "ERROR": "Gif'ə çevirə bilmədim :("
         },
 
         "chat": {
@@ -175,7 +175,7 @@
             "SUCCESS_DELETED": "`Plugin mesajı uğurla silindi.`",
             "ERROR_DELETED": "Plugin mesajı silinə bilmədi.** Xəta",
             "NOT_FOUND": "**Bilinməyən plugin.** Mesajını silə biləcəyiniz pluginlər",
-            "USAGE": "**Dəyişdir, botdaki plugin-mesajlarını dəyişdirə bilməyiniz üçündür.**\nNümunə İstifadəsi: `.değiştir afk \"Hazırda burda deyiləm... Bəlkədə heç gəlmədim\"`\nPlugin-mesajını silmək: `.değiştir afk`\nDəyişdirə biləcəyiniz plugin-mesajları (indiki): `afk/alive/pm/kickme/dızcı/ban/mute/approve/disapprove/block`",
+            "USAGE": "**Dəyişdir, botdaki plugin-mesajlarını dəyişdirə bilməyiniz üçündür.**\nNümunə İstifadəsi: `.deyisdir afk \"Hazırda burda deyiləm... Bəlkədə heç gəlmədim\"`\nPlugin-mesajını silmək: `.değiştir afk`\nDəyişdirə biləcəyiniz plugin-mesajları (indiki): `afk/alive/pm/kickme/dızcı/ban/mute/approve/disapprove/block`",
             "CANNOT_EMPTY": "Plugin mesajı boş ola bilməz.",
             "SETTED": "Plugin(`{plu}`) üçün mesajınız(`{msj}`) təsdiqləndi."
         },
@@ -187,13 +187,13 @@
             "CASE": "🌎 Xəstə:",
             "DEATH": "🌎 Ölüm:",
             "HEAL": "🌎 Sağalan:",
-            "TR": "Türkiyə",
-            "TR_ALL_CASES": "Xəstə (ümumi):",
-            "TR_CASES": "Xəstə (bugün):",
-            "TR_CASE": "Xəstə (aktiv):",
-            "TR_ALL_DEATHS": "Ölüm (ümumi):",
-            "TR_DEATHS": "Ölüm (bugün):",
-            "TR_HEAL": "Sağalan:"
+            "AZ": "Azərbaycan",
+            "AZ_ALL_CASES": "Xəstə (ümumi):",
+            "AZ_CASES": "Xəstə (bugün):",
+            "AZ_CASE": "Xəstə (aktiv):",
+            "AZ_ALL_DEATHS": "Ölüm (ümumi):",
+            "AZ_DEATHS": "Ölüm (bugün):",
+            "AZ_HEAL": "Sağalan:"
         },
 
         "deepfry":{
@@ -255,7 +255,7 @@
         },
 
         "filter": {
-            "GENEL_USAGE": "`İstifadəsi: ``.genelfilter \"salam aleykum\" as` ya da `.genelfilter sa as`",
+            "GENEL_USAGE": "`İstifadəsi: ``.ümumifilter \"salam aleykum\" as` ya da `.ümumifilter sa as`",
             "GENEL_FILTER": "filtri",
             "ADDED": "əlavə edildi",
             "UPDATED": "yeniləndi",
@@ -269,20 +269,20 @@
             "NEED_BOTLOG": "`BOTLOG_CHATID dəyəri filtrə cavab olaraq bir medianın qeyd olunmasından əvvəl təyin olunmalıdır.`"
         },
 
-        "galeri": {
+        "qaleriya": {
             "ADDED_LIST": "`Şəkil növbəyə əlavə edildi.`",
-            "INVALID_URL": "`Səhf bir şəkil URL'i yazdınız. İstifadəsi haqqında bir fikriniz yoxdursa, ` `.asena galeri` `yazın.`",
-            "EXAMPLE": "`Zəhmət olmasa bir şəkil adressi yazın. Nümunə olaraq: ` `.galeri ekle https://i.resimyukle.xyz/7Qbbc9.jpeg`",
+            "INVALID_URL": "`Səhf bir şəkil URL'i yazdınız. İstifadəsi haqqında bir fikriniz yoxdursa, ` `.bot qaleriya` `yazın.`",
+            "EXAMPLE": "`Zəhmət olmasa bir şəkil adressi yazın. Nümunə olaraq: ` `.qaleriya elaveet <şəkil urlsı>`",
             "LIST": "Növbəyə əlavə etdiyiniz şəkillər",
             "REMOVED": "**Növbədəki şəkil uğurla silindi**",
             "REMOVE_ERROR": "**Növbədəki şəkil silinmədi** Xəta",
             "NEED_NUMBER": "Zəhmət olmasa şəklin sırasını qeyd edin. Nümunə:",
             "WORKING": "`Hal-hazırda Qalareya işləyir.`",
             "STARTED": "`Qalareya işləməyə başladı.`",
-            "NEED_PHOTO": "Qalereya işi üçün fotoşəkillər əlavə etməlisiniz. Əlavə etməyi bilmirsinizsə, .asena galeri ilə istifadəsini öyrənə bilərsiniz.",
+            "NEED_PHOTO": "Qalereya işi üçün fotoşəkillər əlavə etməlisiniz. Əlavə etməyi bilmirsinizsə, .bot qaleriya ilə istifadəsini öyrənə bilərsiniz.",
             "STOPPED": "`Qalereya dayandı!`",
             "ALREADY_STOP": "`Qalareya onsuzda işləmir.`",
-            "INVALID": "**Bilinməyən komanda** İstifadəsi:\n\nQalareyaya şəkil əlavə etmək: `.galeri ekle https://i.resimyukle.xyz/7Qbbc9.jpeg`\nQalareya siyahısını görmək: `.galeri liste`\nSıradan bir şəkil silmək: `.galeri sil <sıra sayı>`"
+            "INVALID": "**Bilinməyən komanda** İstifadəsi:\n\nQalareyaya şəkil əlavə etmək: `.qaleriya elaveet <şəkil urlsi>`\nQalareya siyahısını görmək: `.qaleriya siyahı`\nSıradan bir şəkil silmək: `.qaleriya sil <sıra sayı>`"
         },
 
         "github": {
@@ -305,7 +305,7 @@
            "ERROR_MSG": "```last.fm modulu gözlənilməz bir səhvə görə dayandırıldı.```"
         },
 
-        "liste": {
+        "siyahi": {
             "WRONG_INPUT": "**Bilinməyən komanda!** `İstifadəsi: .liste gmute/gban`",
             "NEED_SQL_MODE": "`Bu xüsusiyyət qeyri-sql rejimində işləmir!`",
             "GBANNED_USERS": "`Qlobal olaraq qadağan olunmuş istifadəçilər gətirilir...`",
@@ -332,14 +332,14 @@
         },
 
         "lyrics": {
-            "WRONG_TYPE": "`Xəta: zəhmət olmasa <müğənni> və <mahnı> üçün bölücü olaraq '-' istifadə edin`\nNümunə: `Duman - Haberin Yok Ölüyorum`",
+            "WRONG_TYPE": "`Xəta: zəhmət olmasa <müğənni> və <mahnı> üçün bölücü olaraq '-' istifadə edin`",
             "GENIUS_NOT_FOUND": "`Zəhmət olmasa Genius tokenini təyin edin`",
             "GIVE_INFO": "`Zəhmət olmasa ifaçı və mahnı adını verin`",
             "SEARCHING": "`{} - {} üçün mahnı sözləri axtarılır...`",
             "NOT_FOUND": "Mahnı **{} - {}** tapılmadı!",
             "TOO_LONG": "`Mahnı sözləri çox uzundur, görmək üçün fayla baxın.`",
             "LYRICS": "**Axtarış sorğusu**:",
-            "SINGER_ERROR": "`Xəta: zəhmət olmasa <müğənni> və <mahnı> üçün bölücü olaraq '-' istifadə edin`\nNümunə: `Duman - Haberin Yok Ölüyorum`",
+            "SINGER_ERROR": "`Xəta: zəhmət olmasa <müğənni> və <mahnı> üçün bölücü olaraq '-' istifadə edin`.",
             "SINGER_LYRICS": "🎙 Qulaqlarınızın paslarını siləcəm! {}'dan {} gəlir!",
             "SINGER_ENDED": "🎙Çox yaxşı dedim, düzdü?"
         },
@@ -363,10 +363,10 @@
             "GOODMORNIN_YALL": "`Sabahınız xeyir!`",
             "GOODBYE_MFRS": "`Görüşənədək... *Windows XP söndürlmə səsi*`",
             "RESTARTING": "`Bot yenidən qoşulur..`",
-            "SUPPORT_GROUP": "[Buradan](http://t.me/AsenaSupport) Dəstək qrupumuza çata bilərsiniz.",
-            "CREATOR": "Bu bot \n[Yusuf Usta](https://t.me/Fusuf) tərəfindən hazırlanmışdır. \n",
-            "README": "[Asena README.md](https://github.com/quiec/AsenaUserBot/blob/master/README.md)",
-            "REPO": "[Asena Repo](https://github.com/quiec/asenauserbot)",
+            "SUPPORT_GROUP": "@YarasaSupport Dəstək qrupumuza çata bilərsiniz.",
+            "CREATOR": "Creators: @Nusrte & @XTQ_BAKAVOY.",
+            "README": "[Yarasa README.md](https://github.com/XTQ067/YarasaAsenaUserBot#readme)",
+            "REPO": "[Yarasa Repo](https://github.com/XTQ067/yarasaasenauserbot)",
             "CHECK_LOGS": "`Tapılmış Mesaj üçün istifadəçi qeydlərini yoxlayın!`"
         },
 
@@ -388,7 +388,7 @@
         },
 
         "pmpermit": {
-            "BLOCKED": "`Sən mənim Sahibimin PM-sını spamlayırsan, bu mənim heç xoşuma gəlmir.`\n`Hazırda BLOKLANDIN və SPAM olaraq bildirildin, gələcəkdə dəyişiklik olmadığı ərəfəyədək..`",
+            "BLOCKED": "`Sən mənim Sahibimin PM-sını spamlayırsan, bu mənim heç xoşuma gəlmir.`\n`Hazırda BLOKLANDIN və SPAM olaraq bildirildin, gələcəkdə dəyişiklik olmadığı ərəfəyədək..`\n@YarasaUserbot",
             "ERROR": "PM sayğacı başını itirmiş kimidir, botu zəhmət olmasa yenidən başladın.",
             "BOTLOG_BLOCKED": " adamı sadəcə bir xəyal qırıqlığı idi. PM-nı məşğul etdiyi üçün bloklandı.",
             "NOTIFOFF": "`PM icazəsi olmayan istifadəçilərin bildirişləri səssizə alındı!`",
@@ -525,9 +525,9 @@
         "song": {
             "GIVE_ME_SONG": "** Mənə bir mahnı ver!** `İstifadəsi: .deez mahnı adı/youtube/spotify/soundcloud`",
             "SEARCHING": "`Musiqi axtarılır...`",
-            "BLOCKED_DEEZER": "`Mmmh deyəsən` @DeezerMusicBot `bloklamısan zəhmət olmasa bloku aç",
+            "BLOCKED_DEEZER": "`Deyəsən` @DeezerMusicBot `bloklamısan zəhmət olmasa bloku aç",
             "NOT_FOUND": "`Axtardığınız mahnı tapılmadı! Bağışlayın.`",
-            "UPLOADED_WITH": "@AsenaUserBot ilə yükləndi",
+            "UPLOADED_WITH":"@YarasaUserbot ilə yükləndi",
             "USAGE": "`İstifadəsi:` `.song mahnı ad/youtube url/spotify url`",
             "SEARCHING_SPOT": "`Mahnıların axtarışı və yüklənməsini gözləyin!",
             "DOWNLOADED": "`Yükləmə uğurlu oldu, xahiş edirəm gözləyin.`",
@@ -565,11 +565,11 @@
             "QUERY": "Sorğu",
             "RESULT": "Nəticə",
             "NOT_FOUND": "Heçnə tapılmadı",
-            "EXAMPLE": "`Bir nümunə görmək üçün .asena pip əmrindən istifadə edin.`"
+            "EXAMPLE": "`Bir nümunə görmək üçün .bot pip əmrindən istifadə edin.`"
 
         },
 
-        "time": {
+        "vaxt": {
             "CLOCK": "Burada saat",
             "INVALID_COUNTRY": "`Səhf ölkə.`",
             "TOO_TIMEZONE": "ölkənin birdən çox saat qurşağı var",
@@ -587,16 +587,16 @@
             "NOT_FOUND": "qovluğu tapa bilmədi",
             "GIT_ERROR": "Git xətası!",
             "NOT_GIT": "qovluğlu bir git reposu kimi görünmür. \nAncaq botu .update now əmri ilə zorla yeniləməklə bu problemi həll edə bilərsiniz.",
-            "INVALID_BRANCH": "**[UPDATER]:**` Düşünürəm ki, Asena botunuzu dəyişdirdiniz və öz filialınızdan istifadə edirsiniz.\nBu vəziyyət yenilənməni edənin başını qarışdırır,\nGüncəllənmə haradan çəkiləcək?\nXahiş edirəm rəsmi repodan Asena Botunu istifadə edin.`",
+            "INVALID_BRANCH": "**[UPDATER]:**` Düşünürəm ki, Yarasa botunuzu dəyişdirdiniz və öz filialınızdan istifadə edirsiniz.\nBu vəziyyət yenilənməni edənin başını qarışdırır,\nGüncəllənmə haradan çəkiləcək?\nXahiş edirəm rəsmi repodan yarasa Botunu istifadə edin.`",
             "UPDATE": "\n`Botun` **Ən güncəl versiyadadır!** `Branch:` **{}**\n",
             "WAS_UPDATE": "**{} üçün yeni güncəlləmə mövcuddur!\n\nDəyişikliklər:**\n`{}`",
             "BIG": "`Dəyişikliklərin siyahısı çox böyükdür, ona bir fayl kimi baxmalısınız.`",
             "DO_UPDATE": "`Güncəllənməni etmək üçün \".update now\" komandasını istifadə edin.`",
             "FORCE_UPDATE": "`Cari sabit istifadəçi bot kodu zorla sinxronizasiya olunur...`",
             "UPDATING": "`Bot yenilənir...`",
-            "INVALID_APPNAME": "`[HEROKU UPDATER] Güncəlləmədən istifadə etmək üçün HEROKU_APPNAME dəyişənini təyin etməlisiniz.`",
+            "INVALID_APPNAME": "`[YARASA UPDATER] Güncəlləmədən istifadə etmək üçün HEROKU_APPNAME dəyişənini təyin etməlisiniz.`",
             "INVALID_HEROKU": "{}\n`Heroku dəyişənləri səhv və ya müəyyənləşdirilmişdir.`",
-            "HEROKU_UPDATING": "`[HEROKU UPDATER]\nUserBot-unuzun daha yaxşı olacağına əmin ola bilərsiniz :) Bu müddət maksimum 10 dəqiqə çəkir.`",
+            "HEROKU_UPDATING": "♻️ **YENİLƏNİR**\n 🦇**Yarasa** daha yaxşı olacağına əmin ola bilərsiniz. Bu müddət maksimum 5 dəqiqə çəkir.\n@YarasaUserBot",
             "ERRORS": "Qarşılaşdığımız səhflər bunlardır",
             "SUCCESSFULLY": "`Yeniləmə uğurla başa çatdı! \n Yenidən yüklənir ...`"
         },
@@ -639,7 +639,7 @@
         },
 
         "whois": {
-            "GETTING_DATA": "`Məlumatı oğurlayıram  ... Xahiş edirəm gözləyin...`",
+            "GETTING_DATA": "`Məlumatı oğurlayıram🤭 ... Xahiş edirəm gözləyin...`",
             "FAILED_GETTING_DATA": "`Bu istifadəçinin məlumatlarını ala bilmədim.`",
             "NO_PROFILE_PHOTO": "Şəxsin profil şəklini yükləyəməy üçün köməyə ehtiyac var.",
             "NO_DC_ID": "DC ID gətirə bilmədim",
