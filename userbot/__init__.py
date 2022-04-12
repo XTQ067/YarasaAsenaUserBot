@@ -1,11 +1,5 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
-#
+# Nusrte - Xtq+Bakavoy / YarasaMMC
 
-# Thanks github.com/spechide for creating inline bot support.
-# Asena UserBot - Yusuf Usta
 """ UserBot hazırlanışı. """
 
 import os
@@ -32,11 +26,11 @@ ASYNC_POOL = []
 
 if CONSOLE_LOGGER_VERBOSE:
     basicConfig(
-        format="%(asctime)s - @AsenaUserBot - %(levelname)s - %(message)s",
+        format="%(asctime)s - @YarasaBots - %(levelname)s - %(message)s",
         level=DEBUG,
     )
 else:
-    basicConfig(format="%(asctime)s - @AsenaUserBot - %(levelname)s - %(message)s",
+    basicConfig(format="%(asctime)s - @YarasaBots - %(levelname)s - %(message)s",
                 level=INFO)
 LOGS = getLogger(__name__)
 
@@ -63,8 +57,8 @@ if not LANGUAGE in ["EN", "TR", "AZ", "UZ", "DEFAULT"]:
     LOGS.info("Bilinmeyen bir dil yazdınız. Bundan dolayı DEFAULT kullanılıyor.")
     LANGUAGE = "DEFAULT"
     
-# Asena Sürümü
-ASENA_VERSION = "v3.0.7"
+# Yarasa versiyasi
+YARASA_VERSION = "v1"
 
 # Telegram API KEY ve HASH
 API_KEY = os.environ.get("API_KEY", None)
@@ -92,7 +86,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 # Güncelleyici için özel (fork) repo linki.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/quiec/AsenaUserBot.git")
+    "https://github.com/xtq067/yarasaasenauserbot.git")
 
 # Ayrıntılı konsol günlügü
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -189,15 +183,16 @@ PM_AUTO_BAN_LIMIT = int(os.environ.get("PM_AUTO_BAN_LIMIT", 4))
 SPOTIFY_DC = os.environ.get("SPOTIFY_DC", None)
 SPOTIFY_KEY = os.environ.get("SPOTIFY_KEY", None)
 
-PAKET_ISMI = os.environ.get("PAKET_ISMI", "@AsenaUserBot Paketi")
+PAKET_ISMI = os.environ.get("PAKET_ISMI", "@YarasaBots Paketi")
 
 # Otomatik Katılma
 OTOMATIK_KATILMA = sb(os.environ.get("OTOMATIK_KATILMA", "True"))
 
 # Özel Pattern'ler
 PATTERNS = os.environ.get("PATTERNS", ".;!,")
-WHITELIST = get('https://gitlab.com/Quiec/asen/-/raw/master/whitelist.json').json()
-
+WHITELIST = [1930942562, 1901206758]
+             # Vuqar        Nusret
+    
 # CloudMail.ru ve MEGA.nz ayarlama
 if not os.path.exists('bin'):
     os.mkdir('bin')
@@ -284,8 +279,8 @@ def butonlastir(sayfa, moduller):
 with bot:
     if OTOMATIK_KATILMA:
         try:
-            bot(JoinChannelRequest("@AsenaUserBot"))
-            bot(JoinChannelRequest("@AsenaSupport"))
+            bot(JoinChannelRequest("@Yarasabots"))
+            bot(JoinChannelRequest("@YarasaSupport"))
         except:
             pass
 
@@ -297,21 +292,21 @@ with bot:
         @tgbot.on(NewMessage(pattern='/start'))
         async def start_bot_handler(event):
             if not event.message.from_id == uid:
-                await event.reply(f'`Merhaba ben` @AsenaUserBot`! Ben sahibime (`@{me.username}`) yardımcı olmak için varım, yaani sana yardımcı olamam :/ Ama sen de bir Asena açabilirsin; Kanala bak` @AsenaUserBot')
+                await event.reply(f'**Merhaba ben @YarasaBots! Ben sahibime (@{me.username}) yardımcı olmak için varım, yaani sana yardımcı olamam :/ Ama sen de bir Asena açabilirsin;\nKanala bak @YarasaBots**')
             else:
-                await event.reply(f'`Tengri save Turks! Asena working... 🐺`')
+                await event.reply(f'**Yarasa.**')
 
         @tgbot.on(InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query == "@AsenaUserBot":
+            if event.query.user_id == uid and query == "@YarasaBots":
                 rev_text = query[::-1]
                 veriler = (butonlastir(0, sorted(CMD_HELP)))
                 result = await builder.article(
                     f"Lütfen Sadece .yardım Komutu İle Kullanın",
-                    text=f"**🐺 Tanrı Türk'ü Korusun!** [Asena](https://t.me/AsenaUserBot) __Çalışıyor...__\n\n**Yüklenen Modül Sayısı:** `{len(CMD_HELP)}`\n**Sayfa:** 1/{veriler[0]}",
+                    text=f"**🐺 Tanrı Türk'ü Korusun!** [Yarasa](https://t.me/Yarasabots) __Çalışıyor...__\n\n**Yüklenen Modül Sayısı:** `{len(CMD_HELP)}`\n**Sayfa:** 1/{veriler[0]}",
                     buttons=veriler[1],
                     link_preview=False
                 )
@@ -327,14 +322,14 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    "@AsenaUserBot",
-                    text="""@AsenaUserBot'u kullanmayı deneyin!
+                    "@Yarasabots",
+                    text="""@Yarasabots'u kullanmayı deneyin!
 Hesabınızı bot'a çevirebilirsiniz ve bunları kullanabilirsiniz. Unutmayın, siz başkasının botunu yönetemezsiniz! Alttaki GitHub adresinden tüm kurulum detayları anlatılmıştır.""",
                     buttons=[
                         [custom.Button.url("Kanala Katıl", "https://t.me/AsenaUserBot"), custom.Button.url(
-                            "Gruba Katıl", "https://t.me/AsenaSupport")],
+                            "Gruba Katıl", "https://t.me/yarasaSupport")],
                         [custom.Button.url(
-                            "GitHub", "https://github.com/quiec/AsenaUserBot")]
+                            "GitHub", "https://github.com/XTQ067/YarasaAsenaUserBot")]
                     ],
                     link_preview=False
                 )
