@@ -7,7 +7,7 @@ import requests
 from telethon.tl.types import InputMessagesFilterDocument
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 from telethon.tl.functions.channels import GetMessagesRequest
-from . import BRAIN_CHECKER, LOGS, bot, PLUGIN_CHANNEL_ID, CMD_HELP, LANGUAGE, BOZQURD_VERSION, PATTERNS
+from . import BRAIN_CHECKER, LOGS, bot, PLUGIN_CHANNEL_ID, CMD_HELP, LANGUAGE, YARASA_VERSION, PATTERNS
 from .modules import ALL_MODULES
 import userbot.modules.sql_helper.mesaj_sql as MSJ_SQL
 import userbot.modules.sql_helper.qaleriya_sql as QALERIYA_SQL
@@ -236,7 +236,7 @@ for module_name in ALL_MODULES:
 LOGS.info("|------------------------| YARASA USERBOT |-------------------------|"
           "|Botunuz işleyir! Hansısa söhbete .alive yazaraq Test ede bilersiz!.|"
           " |Kömeye ehtiyacınız varsa, destek qrupuna gelin: @YarasaBots.      |")
-LOGS.info(f"Bot versiyası: BozQurd {BOZQURD_VERSION}")
+LOGS.info(f"Bot versiyası: {YARASA_VERSION}")
 
 """
 if len(argv) not in (1, 3, 4):
